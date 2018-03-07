@@ -30,6 +30,7 @@ class Example(QWidget):
 
         qle.move(80, 100)
         self.lbl.move(60, 40)
+        qle.setGeometry(300,200,200,200)
 
         qle.textChanged[str].connect(self.onChanged)
 
