@@ -28,7 +28,7 @@ class Example(QWidget):
         self.lbl = QLabel(self)
         qle = QLineEdit(self)
 
-        qle.move(60, 100)
+        qle.move(80, 100)
         self.lbl.move(60, 40)
 
         qle.textChanged[str].connect(self.onChanged)
